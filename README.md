@@ -4,7 +4,7 @@
 
 1. [Dado o Fluxograma abaixo, desenvolva o algoritmo abaixo na Linguagem Java:](https://github.com/edvaldoljr/Bootcamp-Generation-Exercicios/blob/main/src/javaBasico/Ex1.java) 
 
-   ![]()
+   ![](https://github.com/edvaldoljr/Bootcamp-Generation-Exercicios/blob/main/img.png?raw=true)
 
    Entrada                                                                                Saída
 
