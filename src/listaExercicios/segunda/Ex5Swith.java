@@ -18,34 +18,35 @@ public class Ex5Swith {
         String descricaoProduto = "";
 
         switch (idProduto) {
-            case 1:
-                valorTotal = item1 * quantidade;
-                descricaoProduto = "Cachorro quente";
-                break;
-            case 2:
-                valorTotal = item2 * quantidade;
-                descricaoProduto = "X-Salada";
-                break;
-            case 3:
-                valorTotal = item3 * quantidade;
-                descricaoProduto = "X-Bacon";
-                break;
-            case 4:
-                valorTotal = item4 * quantidade;
-                descricaoProduto = "Bauro";
-                break;
-            case 5:
-                valorTotal = item5 * quantidade;
-                descricaoProduto = "Refigerante";
-                break;
-            case 6:
-                valorTotal = item6 * quantidade;
-                descricaoProduto = "Suco de Laranja";
-                break;
-            default:
-                System.out.println("Produto inválido!");
-                return; // Sai do programa se o produto for inválido
-        }
+                case 1 -> {
+                    valorTotal = item1 * quantidade;
+                    descricaoProduto = "Cachorro quente";
+                }
+                case 2 -> {
+                    valorTotal = item2 * quantidade;
+                    descricaoProduto = "X-Salada";
+                }
+                case 3 -> {
+                    valorTotal = item3 * quantidade;
+                    descricaoProduto = "X-Bacon";
+                }
+                case 4 -> {
+                    valorTotal = item4 * quantidade;
+                    descricaoProduto = "Bauro";
+                }
+                case 5 -> {
+                    valorTotal = item5 * quantidade;
+                    descricaoProduto = "Refigerante";
+                }
+                case 6 -> {
+                    valorTotal = item6 * quantidade;
+                    descricaoProduto = "Suco de Laranja";
+                }
+                default -> {
+                    System.out.println("Produto inválido!");
+                    return; // Sai do programa se o produto for inválido
+                }
+            }
 
         System.out.println("=== PEDIDO ===");
         System.out.printf("Produto: %s\nQuantidade: %d\nValor Total: R$%.2f", descricaoProduto, quantidade, valorTotal);
