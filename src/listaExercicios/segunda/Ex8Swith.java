@@ -9,6 +9,7 @@ public class Ex8Swith {
         float valorOperacao; // Variável para armazenar o valor da operação
 
         Scanner scanner = new Scanner(System.in); // Criar Scanner para leitura de entrada
+        System.out.println("Digite o saldo inicial:");
         float saldo = scanner.nextFloat(); // Saldo inicial
         // Loop para repetir as operações até que o usuário escolha sair
         while (true) {
