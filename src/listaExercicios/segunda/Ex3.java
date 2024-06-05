@@ -44,5 +44,6 @@ public class Ex3 {
             default:
                 System.out.println("Entrada Invalida.");
         }
+        entrada.close();
     }
 }
