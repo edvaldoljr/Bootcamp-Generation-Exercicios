@@ -2,7 +2,7 @@ package listaExercicios.segunda;
 
 import java.util.Scanner;
 
-public class Ex3 {
+public class Ex3IfElse {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 

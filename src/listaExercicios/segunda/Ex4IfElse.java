@@ -2,7 +2,7 @@ package listaExercicios.segunda;
 
 import java.util.Scanner;
 
-public class Ex4 {
+public class Ex4IfElse {
     public static void main(String[] args) {
         Scanner scaner = new Scanner(System.in);
 
@@ -33,7 +33,6 @@ public class Ex4 {
                     System.out.println("vertebrado,\nMamifero\nVaca");
                 }
             }
-
         } else if (entrada1.equalsIgnoreCase("invertebrado")) {
             System.out.println("=== Escola a proxima categoria ===\n[Inseto] / [Anelidio]");
             entrada2 = scaner.nextLine();
@@ -61,6 +60,6 @@ public class Ex4 {
         } else {
             System.out.println("Entrada Invalida");
         }
+        scaner.close();
     }
 }
-
