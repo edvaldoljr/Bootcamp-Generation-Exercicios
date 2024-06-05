@@ -29,11 +29,11 @@ public class Ex7Swith {
                 }
                 case 3 -> {
                     resultado = valor1 * valor2;
-                    System.out.println(valor1 + " + " + valor2 + " = " + resultado);
+                    System.out.println(valor1 + " * " + valor2 + " = " + resultado);
                 }
                 case 4 -> {
                     resultado = valor1 / valor2;
-                    System.out.println(valor1 + " + " + valor2 + " = " + resultado);
+                    System.out.println(valor1 + " / " + valor2 + " = " + resultado);
                 }
                 default -> {
                     System.out.println("Entrada Invalida");
