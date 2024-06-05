@@ -1,4 +1,4 @@
-package javaBasico;
+package listaExercicios.primeira;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class Ex2 {
         }
 
         mediaFinal /= notas.length;
-        System.out.println("A média final é: " + mediaFinal);
+        System.out.printf("A média final é: %.1f " , mediaFinal);
 
     }
 }

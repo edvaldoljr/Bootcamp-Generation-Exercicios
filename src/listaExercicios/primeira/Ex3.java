@@ -1,11 +1,11 @@
-package javaBasico;
+package listaExercicios.primeira;
 
 import java.util.Scanner;
 
 public class Ex3 {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
 
+        Scanner entrada = new Scanner(System.in);
         float salarioBruto, adicionalNoturno, horasExtras, descontoCOlaborador, salarioLiquido;
 
         System.out.println("Digite seu salario Bruto: ");
@@ -23,6 +23,5 @@ public class Ex3 {
         salarioLiquido = salarioBruto + (adicionalNoturno + (horasExtras * 5) - descontoCOlaborador);
 
         System.out.printf("Salario Liquido: %.2f" , salarioLiquido);
-
     }
 }

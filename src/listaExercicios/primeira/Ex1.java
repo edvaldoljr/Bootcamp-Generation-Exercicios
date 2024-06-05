@@ -1,7 +1,6 @@
-package javaBasico;
+package listaExercicios.primeira;
 
 import java.util.Scanner;
-
 public class Ex1 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
@@ -15,8 +14,6 @@ public class Ex1 {
         abono = entrada.nextDouble();
 
         novoSalario = salario + abono;
-
         System.out.printf("Novo salario : %.2f" , novoSalario);
-
     }
 }

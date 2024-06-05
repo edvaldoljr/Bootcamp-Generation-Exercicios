@@ -1,4 +1,4 @@
-package javaBasico;
+package listaExercicios.primeira;
 
 import java.util.Scanner;
 
