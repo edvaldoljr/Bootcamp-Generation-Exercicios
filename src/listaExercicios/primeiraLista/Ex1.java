@@ -1,4 +1,4 @@
-package listaExercicios.primeira;
+package listaExercicios.primeiraLista;
 
 import java.util.Scanner;
 public class Ex1 {
