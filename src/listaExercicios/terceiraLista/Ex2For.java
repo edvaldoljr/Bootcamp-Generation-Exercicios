@@ -7,7 +7,7 @@ public class Ex2For {
         Scanner scanner = new Scanner(System.in);
 
         int totalPar = 0, totalImpar = 0;
-        int[] numeros = new int[4];
+        int[] numeros = new int[9];
 
 
         for (int i = 0; i < numeros.length; i++) {
