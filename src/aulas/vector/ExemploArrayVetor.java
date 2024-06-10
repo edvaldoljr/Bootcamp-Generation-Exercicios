@@ -1,4 +1,4 @@
-package aulas;
+package aulas.vector;
 
 public class ExemploArrayVetor {
 }
