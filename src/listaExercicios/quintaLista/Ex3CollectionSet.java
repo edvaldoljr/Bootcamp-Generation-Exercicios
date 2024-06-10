@@ -9,7 +9,7 @@ public class Ex3CollectionSet {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Set<Integer> set = new HashSet<Integer>();
-
+        
         for (int i = 0; i < 10; i++) {
             System.out.println("Digite um numero");
             int numeroEntrada = scanner.nextInt();
