@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Ex1Quue {
+public class Ex1Queue {
 
     public static void menu() {
         System.out.println("======================\n" + "    Menu de Opções" + "\n======================");
